@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Project 68</title>
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Riverside Elementary</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavBar">
+            <ul class="nav navbar-nav">
+                <li><a href="#SchoolName">School Name</a></li>
+                <li><a href="#CampusLife">Campus Life</a></li>
+                <li><a href="#Achievements">Achievements</a></li>
+                <li><a href="#WhatsNew">What's New</a></li>
+                <li><a href="#Alumni">Alumni</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="headlineText">
+        <marquee id="moving-headline" onmouseover="this.stop();" onmouseout="this.start();">Riverside is reopening their
+            school to full in-person!</marquee>
+    </div>
+    <img id="image1" src="http://media.point2.com/p2a/module/ede6/611a/3d6d/a3568aed9713c738dbc7/original.jpg">
+    <div class="container">
+        <div class="page-header" id="CampusLife">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="library.webp">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <h5 class="text-success  text-left text-capitalize">Was built in 1992 </h5>
+                    <p class="text-muted text-left">Riverside has a spacious library with tons of different books to
+                        read.</p>
+                </div>
+
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="playground.jpg">
+                    <h4 class="text-capitalize"><kbd>playground</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1992</h5>
+                    <p class="text-muted text-left">Riverside's playground is a safe and fun environment for kids to
+                        play on during lunch and recess. </p>
+                </div>
+
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="cafeteria.jpg">
+                    <h4 class="text-capitalize"><kbd>cafeteria</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was Built in 1992</h5>
+                    <p class="text-muted text-left">The cafeteria in Riverside is a great place to eat lunch. It also
+                        has a variety of hot lunch options.</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-header" id="Achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary achievement_head" data-toggle="collapse" data-target="#schoolBasketball">
+            School Basketball<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="schoolBasketball" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="basketball.webp" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievement_text">
+                <h5 class="text-success text-left text-capitalize">excellent program with several district winnings
+                </h5>
+                <p>
+                    Riverside's baskteball starts in October for 5th and 6th grade girls. A tournament team is put
+                    together after a month into the season. January is the start of basketball for 5th and 6th
+                    grade boys.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="bg-primary achievement_head" data-toggle="collapse" data-target="#schoolMath">
+            School Math <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="schoolMath" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="math.png" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievement_text">
+                <h5 class="text-success text-left text-capitalize"> students in GATE have participated and won
+                    district math compitetions </h5>
+                <p>
+                    Starting in late March, students who are in GATE (Gifted and Talented Education) can choose to
+                    participate in a math compitition. Several years, Riverside has taken first with it's talented
+                    teachers and hard-working students.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="bg-primary achievement_head" data-toggle="collapse" data-target="#schoolBand">
+            School Music<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="schoolBand" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="band.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievement_text">
+                <h5 class="text-success text-left text-capitalize">excellent program with concerts throughout the year
+                </h5>
+                <p>
+                    5th and 6th graders get the chance to be in either band, orchestra, or choir. During the day,
+                    students will meet with their music teacher, depending on which they pick, for 30 minutes in
+                    their groups. A great way to learn a new instrument and make friends.
+                </p>
+
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
+            <h2 class="text-capitalize">Contact Us</h2>
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.475204553407!2d-116.16033188450481!3d43.57581727912399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef780601bcfc1%3A0xf3cf1d83075d733c!2sRiverside%20Elementary%20School!5e0!3m2!1sen!2sus!4v1620957240662!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="details">
+                <img id="PrinicpalPicture" src="PrincipalPicture.png"
+                    class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>Principle Name:</h3>
+                <h4>Curtis Anderson</h4>
+                <div class="contact_1">
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;(208) 854-5980</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
