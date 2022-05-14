@@ -70,3 +70,10 @@
 #ContactUs {
     text-align: center;
 }
+.whatsNew_li {
+    margin-top: 13px;
+}
+.whatsNew_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
