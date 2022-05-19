@@ -77,3 +77,31 @@
     border-bottom: 1px solid white;
     padding: 8px;
 }
+.alumni {
+    cursor: pointer;
+    width: 100%;
+}
+.alumni hr {
+    margin-bottom: 10px;
+}
+.modal-content {
+    margin-top: 100px;
+}
+.img_modal {
+    display: inline-block;
+}
+.p_modal {
+    margin-top: 10px;
+}
+.pop_up {
+    text-align: center;
+}
+#footer {
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+#footer h4 {
+    padding-bottom: 10px;
+}
